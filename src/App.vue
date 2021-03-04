@@ -1,11 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+<!--  <van-button>xxx</van-button>-->
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <router-view/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+// import { createApp } from 'vue'
+// import { Button } from 'vant'
+//
+// const app = createApp()
+// app.use(Button)
 export default {
   name: 'App',
   components: {
